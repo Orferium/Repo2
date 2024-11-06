@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org/"
+      xmlns:form="http://www.w3.org/1999/xhtml">
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #user-form{
+      width: max-content;
+      margin: 50px auto auto;
+      text-align: center;
+    }
+  </style>
+  <title></title>
+</head>
+<body>
+<div id="user-form">
+  <form method="post">
+
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">email</label><br>
+    <input type="text" id="email" name="email"><br><br>
+
+    <button type="submit" name="addUser" value="addUser">Add User</button>
+  </form>
+</div>
+</body>
+</html>
